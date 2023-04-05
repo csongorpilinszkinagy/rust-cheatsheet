@@ -10,12 +10,6 @@ https://github.com/0atman/noboilerplate
 
 https://rustup.rs
 
-**Install Rust on Mac**
-
-```zsh
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
-
 **Rustlings GitHub repo**
 
 https://github.com/rust-lang/rustlings
@@ -90,3 +84,31 @@ The Rust ecosystem is growing rapidly, with an extensive collection of libraries
 ### Community
 
 The Rust community is welcoming and supportive, making it easy to learn the language and get help when needed. The Rust programming language's official documentation is comprehensive and easy to follow, and there are numerous tutorials, articles, and forums to assist you throughout your journey.
+
+## Insights from the Rust book
+
+### Introduction
+
+Contermporary development tools:
+* Cargo: the included dependency manager and build tool
+* Rustfmt: formatting tool
+* Rust Language Server: IDE integration for code completion and inline error messages
+
+### Getting started
+
+#### Installation
+
+Install Rust on Mac
+```zsh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+Check installation
+```zsh
+rustc --version
+```
+
+Updating Rust on Mac
+```zsh
+rustup update
+```
